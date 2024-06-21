@@ -385,7 +385,7 @@ void sub_D20C(void)
         case 0:
             if(gUnknown_02002858.unk18 == 3)
             {
-                m4aSongNumStart(0x11);
+                m4aSongNumStart(MUS_GOT_ONE);
                 gUnknown_0202BED4++;
             }
             break;
@@ -901,7 +901,7 @@ void sub_DD70(void)
     sub_DEB4();
     sub_EE64();
     DmaCopy16(3, gUnknown_03005C00,0x6000000, 0x1000);
-    m4aSongNumStart(0x9);
+    m4aSongNumStart(MUS_HI_SCORE);
     sub_0CBC();
     sub_024C();
     gMain.subState++;
@@ -1019,7 +1019,7 @@ void sub_E0EC(void)
     sub_DEB4();
     sub_EE64();
     DmaCopy16(3, gUnknown_03005C00,0x6000000, 0x1000);
-    m4aSongNumStart(0x9);
+    m4aSongNumStart(MUS_HI_SCORE);
     sub_0CBC();
     sub_024C();
     gMain.subState++;

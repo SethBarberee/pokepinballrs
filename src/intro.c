@@ -1,4 +1,5 @@
 #include "global.h"
+#include "constants/bg_music.h"
 #include "functions.h"
 #include "main.h"
 #include "m4a.h"
@@ -333,7 +334,7 @@ void sub_98B4(void)
         {
             gUnknown_0201A450.unkC = 0;
             sub_10170(&gIntroScene1Sprites_Pals[0x1C0], BG_PLTT + 0xE0, 0x20, 0);
-            m4aSongNumStart(0x8);
+            m4aSongNumStart(MUS_OPENING);
             gUnknown_0202C790++;
         }
     }
